@@ -20,7 +20,6 @@ Authors: Xiangzuo Huo, Shengwei Tian, Bingming Zhou, Long Yu, Aolun Li.
 * pytorch <= 2.0.0
 
 1. Train:
-* Prepare the required images and store them in categories, set up training image folders and validation image folders respectively
 * Run `python train_single.py`
 
 2. Evaluate:
@@ -33,24 +32,32 @@ Authors: Xiangzuo Huo, Shengwei Tian, Bingming Zhou, Long Yu, Aolun Li.
 
 ## <a name="Models"></a>Model Checkpoints
 
-Three model versions of the model are available with different backbone sizes. These models can be instantiated by running
-
-```
-from segment_anything import sam_model_registry
-sam = sam_model_registry["<model_type>"](checkpoint="<path/to/checkpoint>")
-```
-
 Click the links below to download the checkpoint for the corresponding model type.
 
-- **`default` or `vit_h`: [ViT-H SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth)**
+- `vit_h`: [ViT-H SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth)
 - `vit_l`: [ViT-L SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth)
 - `vit_b`: [ViT-B SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth)
 
+Init checkpoint can be downloaded from [hugging face link](https://huggingface.co/sam-hq-team/sam-hq-training/tree/main/pretrained_checkpoint)
+
+### Expected checkpoint
+
+```
+pretrained_checkpoint
+|____sam_vit_b_maskdecoder.pth
+|____sam_vit_b_01ec64.pth
+|____sam_vit_l_maskdecoder.pth
+|____sam_vit_l_0b3195.pth
+|____sam_vit_h_maskdecoder.pth
+|____sam_vit_h_4b8939.pth
+
+```
 
 ## Reference
 Some of the codes in this repo are borrowed from:  
 * [SAM](https://github.com/facebookresearch/segment-anything)  
-* [SAM-HQ](https://github.com/SysCV/sam-hq) 
+* [SAM-HQ](https://github.com/SysCV/sam-hq)
+  
 Thank them for their awesome work!
 
 ## Citation
