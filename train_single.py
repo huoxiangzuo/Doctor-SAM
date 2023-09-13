@@ -341,7 +341,7 @@ def get_args_parser():
     parser.add_argument('--lr_drop_epoch', default=3, type=int)
     parser.add_argument('--max_epoch_num', default=12, type=int)
     parser.add_argument('--input_size', default=[1024, 1024], type=list)
-    parser.add_argument('--batch_size_train', default=4, type=int)
+    parser.add_argument('--batch_size_train', default=6, type=int)
     parser.add_argument('--batch_size_valid', default=1, type=int)
     parser.add_argument('--model_save_fre', default=1, type=int)
 
@@ -355,7 +355,7 @@ def get_args_parser():
 # if you want to eval or visulize
     parser.add_argument('--eval', default=False)
     parser.add_argument('--visualize', default=False)
-    parser.add_argument("--restore-model", type=str, default='work_dirs/hq_sam_b/epoch_1.pth',
+    parser.add_argument("--restore-model", type=str, default='work_dirs/DrSAM_b/epoch_1.pth',
                         help="The path to the hq_decoder training checkpoint for evaluation")
 
     return parser.parse_args()
