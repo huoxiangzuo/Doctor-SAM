@@ -1,8 +1,6 @@
 # Doctor-SAM
 ![](https://img.shields.io/github/license/huoxiangzuo/Doctor-SAM)  
-Dr. SAM. He is a fine-tuned model for medical image segmentation based on SAM.
-
-This repo. is the official implementation of '**DrSAM: Modified Segment Anything Model for Generalizable Medical Image Segmentation**'.   
+This repo. is the official implementation of '**Dr-SAM: U-shape Structure Segment Anything Model for Generalizable Medical Image Segmentation**'.   
 Authors: Xiangzuo Huo, Shengwei Tian, Bingming Zhou, Long Yu, Aolun Li.  
 
 ## Overview
