@@ -1,16 +1,15 @@
-# Doctor-SAM
+# Doctor-SAM （ICIC 2024）
 ![](https://img.shields.io/github/license/huoxiangzuo/Doctor-SAM)  
 This repo. is the official implementation of '**Dr-SAM: U-shape Structure Segment Anything Model for Generalizable Medical Image Segmentation**'.   
 Authors: Xiangzuo Huo, Shengwei Tian, Bingming Zhou, Long Yu, Aolun Li.  
 
 ## Overview
-<!-- <img width="1395" alt="figure1" src="https://user-images.githubusercontent.com/57312968/191570017-34f30c13-9d8e-4776-a118-de968aebdb19.png" width="80%"> -->
-
-## DrSAM Segmentation Quantitative Results
-<!-- <img width="1424" alt="figure2s" src="https://user-images.githubusercontent.com/57312968/191570496-c62e04dc-8baf-4b01-a6ba-03c24c5a744d.png" width="70%"> -->
+<!-- <img width="1395" alt="drsam" src="https://github.com/huoxiangzuo/Doctor-SAM/assets/57312968/2524a914-f4c5-46c6-bf56-85b0d6ec8d1e"> -->
+<img width="640" alt="drsam" src="https://github.com/huoxiangzuo/Doctor-SAM/assets/57312968/2524a914-f4c5-46c6-bf56-85b0d6ec8d1e">
 
 ## DrSAM Segmentation Qualitative Results
-<!-- <img src="https://user-images.githubusercontent.com/57312968/191570242-4425944d-4017-45c6-a3f7-f977376766a2.png" width="75%"> -->
+<!-- <img src="https://github.com/huoxiangzuo/Doctor-SAM/assets/57312968/bd81ce6d-a1df-4ab0-975f-71d604c16895" width="75%"> -->
+<img width="404" alt="result" src="https://github.com/huoxiangzuo/Doctor-SAM/assets/57312968/bd81ce6d-a1df-4ab0-975f-71d604c16895">
 
 ## Run
 0. Requirements:
