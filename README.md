@@ -62,5 +62,12 @@ Thank them for their awesome work!
 If you find our paper/code is helpful, please consider citing:
 
 ```
-Huo, X., Tian, S., Zhou, B., Yu, L., Li, A. (2024). Dr-SAM: U-Shape Structure Segment Anything Model for Generalizable Medical Image Segmentation. In: Huang, DS., Zhang, C., Zhang, Q. (eds) Advanced Intelligent Computing Technology and Applications. ICIC 2024. Lecture Notes in Computer Science, vol 14868. Springer, Singapore. https://doi.org/10.1007/978-981-97-5600-1_17
+@inproceedings{huo2024dr,
+  title={Dr-SAM: U-Shape Structure Segment Anything Model for Generalizable Medical Image Segmentation},
+  author={Huo, Xiangzuo and Tian, Shengwei and Zhou, Bingming and Yu, Long and Li, Aolun},
+  booktitle={International Conference on Intelligent Computing},
+  pages={197--207},
+  year={2024},
+  organization={Springer}
+}
 ```
